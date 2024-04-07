@@ -4,7 +4,7 @@ const MenuSchema=mongoose.Schema({
         type:String,
         require:true,
     },
-    Method:{
+    Comment:{
         type:String,
         require:true,
     },
