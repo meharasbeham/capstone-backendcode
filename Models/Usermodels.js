@@ -1,8 +1,8 @@
 const mongoose=require("mongoose");
 const UserSchema=mongoose.Schema({
-    Username:{
+    Name:{
         type:String,
-        require:true,
+     
     },
     Email:{
         type:String,
